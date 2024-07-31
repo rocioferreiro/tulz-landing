@@ -12,6 +12,7 @@ const inter = Inter({
 export const metadata = {
   title: "Home - Tulz",
   description: 'La revolución educativa esta en camino!',
+  image: 'https://i.ibb.co/mztjPtT/logo.png',
   openGraph: {
     images: 'https://i.ibb.co/mztjPtT/logo.png',
   },
@@ -25,9 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/icon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className={ `${inter.className} bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
+      <body className={ `bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true}>
           <main className='main'>{children}</main>
