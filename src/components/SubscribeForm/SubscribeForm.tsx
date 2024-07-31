@@ -24,13 +24,13 @@ function SubscribeForm() {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="Email address"
+                    placeholder="Dirección de Email"
                     autoComplete="email"
                     required
                     className="block w-full placeholder:text-gray-500 pl-[10px] focus:outline-none border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 mr-0 rounded-s-2xl  p-2"
                   />
                   <button className="ml-0 bg-[#0064B4] sm:w-auto border-none dark:border-none	rounded-e-2xl mt-2 md:mt-0	p-2 border-2 dark:text-white hover:bg-slate-950">
-                    Subscribe
+                    Subscribite
                   </button>
                 </div>
               </div>
